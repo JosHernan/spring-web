@@ -7,14 +7,12 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Admin</title>
 </head>
 <body>
-  <h1>Index.jsp</h1>
-     
-  <a href='<c:url value="/about"  />'>   Acerca de</a>
-  <br/>
-  Atributos del Model:<c:out value="${mensaje}"></c:out> <br/>
+<h1>Admin.JSP</h1>
+
+Atributos del Model:<c:out value="${mensaje}"></c:out> <br/>
 Atributos en Session:<c:out value="${sessionScope.resultado}"></c:out> <br/>
 </body>
 </html>
